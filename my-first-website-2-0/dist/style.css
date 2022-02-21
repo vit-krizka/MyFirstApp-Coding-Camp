@@ -1,0 +1,154 @@
+body {
+  margin: 0px;
+  width: 1000px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+p {
+  margin: 0px;
+}
+
+ul {
+  list-style-type: square;
+}
+
+nav {
+  background-color: #222;
+  color: white;
+}
+
+#menu {
+  margin: 0px;
+  list-style-type: none;
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 250%;
+  padding: 35px;
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+}
+
+a:link,
+a:visited,
+a:active {
+  color: white;
+  text-decoration: none;
+}
+
+a:hover {
+  color: white;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+header {
+  display: flex;
+  height: 600px;
+}
+
+#headerLeft {
+  padding: 15px;
+  width: 40%;
+  background-image: url("https://raw.githubusercontent.com/green-fox-academy/myfirstapp-syllabus/master/assets/first-website-header.png");
+  background-position: -750px;
+  background-size: cover;
+  position: relative;
+  box-sizing: border-box;
+}
+
+#headerRight {
+  padding: 35px;
+  box-sizing: border-box;
+  width: 60%;
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 150%;
+  color: #222;
+  line-height: 1.4;
+}
+
+#headerLeftText {
+  position: absolute;
+  bottom: 40px;
+  left: 40px;
+}
+
+#name {
+  margin: 0px;
+  font-family: "Abril Fatface", cursive;
+  font-size: 82px;
+  color: #222;
+  line-height: 1;
+}
+
+#greetings {
+  font-family: "Abril Fatface", cursive;
+  font-size: 42px;
+  color: #222;
+}
+
+.container {
+  margin-top: 40px;
+  display: flex;
+}
+
+.left {
+  width: 40%;
+  position: relative;
+  box-sizing: border-box;
+}
+
+blockquote {
+  margin: 0px;
+  background-color: #222;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  font-family: "Abril Fatface", cursive;
+  font-size: 65px;
+  color: white;
+  padding: 80px 20px 35px 30px;
+  box-sizing: border-box;
+}
+
+.right {
+  box-sizing: border-box;
+  width: 60%;
+  padding: 0px 20px 20px 30px;
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 130%;
+  color: #222;
+  line-height: 1.2;
+}
+
+.QuotationMark {
+  margin: 0px;
+  font-family: "Abril Fatface", cursive;
+  color: white;
+  font-size: 200px;
+  transform: rotate(180deg);
+  position: absolute;
+  top: -140px;
+  left: 0px;
+}
+
+h2 {
+  text-transform: uppercase;
+  font-weight: bold;
+  padding: 20px 0px 20px 0px;
+}
+
+h3 {
+  font-weight: bold;
+  font-size: 140%;
+  margin-bottom: 0px;
+}
+
+h4 {
+  font-family: "Merriweather", serif;
+  font-style: italic;
+  font-weight: bold;
+  padding-top: 0px;
+  margin-top: 0px;
+}

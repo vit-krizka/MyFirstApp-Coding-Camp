@@ -1,0 +1,20 @@
+.big {
+    color: blue;
+}
+
+.container div {
+    border: 1px solid green;
+}
+
+.container div:hover {
+    border: 3px solid darkgreen;
+    font-weight: bold;
+    }
+
+.asteroid.big, #b325 {
+    font-weight: bold;
+}
+
+body p {
+    background-color: yellow;
+}
