@@ -1,0 +1,27 @@
+main {
+    font-family: 'Sanchez', serif;
+}
+  
+h1, h1, p, ul {
+    margin: 15px 0px 15px 0px;
+}
+  
+h1 {
+    font-weight: bold;
+    color: #F75D59;
+}
+  
+h2 {
+    font-weight: bold;
+    color: #7D1B7E;
+    margin: 5px 0px 5px 0px;
+}
+  
+ol {
+    list-style-type: upper-roman;
+    text-decoration: underline;
+}
+  
+.pink {
+    color: #FF00FF;
+}

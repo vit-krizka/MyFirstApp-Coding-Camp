@@ -1,0 +1,144 @@
+body {
+  margin: 0px;
+}
+
+header {
+  width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#headerContainer {
+  width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  z-index: 2;
+}
+
+#name {
+/*   background-color: red; */
+  margin: 0px;
+  font-family: 'Abril Fatface', cursive;
+  font-size: 72px;
+  color: #222;
+}
+
+#greetings {
+/*   background-color: blue; */
+  margin: 0px;
+  padding-top: 200px;
+  font-family: 'Abril Fatface', cursive;
+  font-size: 35px;
+  color: #222;
+}
+
+img {
+  width: 1200px;
+  position: absolute;
+  top: 0px;
+  left: auto;
+  right: auto;
+  z-index: 1;
+}
+
+main {
+  width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 50px;
+/*   background-color: red; */
+  }
+
+#section1 {
+  width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 120%;
+  color: #222;
+  line-height: 1.2;
+ }
+
+ul {
+  list-style-type: square;
+}
+
+blockquote {
+  width: 750px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 50px 25px 35px 55px;
+  background-color: #222;
+  font-family: 'Abril Fatface', cursive;
+  color: white;
+  font-size: 50px;
+  position: relative;
+}
+
+.QuotationMark {
+/*    margin: 50px; */
+/*   background-color: red; */
+  font-family: 'Abril Fatface', cursive;
+  color: white;
+  font-size: 120px;
+  transform: rotate(180deg);
+  position: absolute;
+  top: -80px;
+  left: 0px;
+}
+
+#section2 {
+  width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+  color: #222;
+  line-height: 1.2;
+  font-family: 'Josefin Sans', sans-serif;
+ }
+
+h2 {
+  text-transform: uppercase;
+  font-weight: bold;
+  padding: 20px 0px 20px 0px;
+ }
+
+#section2 h3 {
+  font-weight: bold;
+  font-size: 140%;
+  margin-bottom: 0px;
+ }
+
+#section2 h4 {
+  font-family: 'Merriweather', serif;
+  font-style: italic;
+  font-weight: bold;
+  padding-top: 0px;
+  margin-top: 0px;
+  font-size: 15px;
+ }
+
+#section4 {
+  width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 120%;
+  color: #222;
+  line-height: 1.2;
+ }
+
+hr {
+  border-top: 4px solid;
+  margin: 30px 0px 30px 0px;
+  color: #222;
+}
+
+footer {
+  width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+  color: #222;
+  line-height: 1.2;
+  font-family: 'Josefin Sans', sans-serif;
+}
